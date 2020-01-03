@@ -34,7 +34,7 @@ public class GoogleSearchTest {
 
         webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        assertEquals("ES igual al titulo ",webDriver.getTitle());
+        assertEquals("Club Tijuana - Buscar con Google",webDriver.getTitle());
 
     }
 
